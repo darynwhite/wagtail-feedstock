@@ -43,7 +43,7 @@ requirements:
 test:
   commands:
     - wagtail help
-  
+
 about:
   home: https://github.com/wagtail/wagtail
   license: BSD-3-Clause
