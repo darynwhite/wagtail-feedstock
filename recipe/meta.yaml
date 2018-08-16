@@ -1,6 +1,6 @@
 {% set name = "wagtail" %}
-{% set version = "2.1.2" %}
-{% set sha256 = "185fc87a34219ea5eed88aa424b476d4cd15ce55d2222c5d7889a0a9041bacc9" %}
+{% set version = "2.2.1" %}
+{% set sha256 = "67b0fce3487e9dc2378e8ecdbc6ee8469d1baddcdf1061b35f41ad54ca98268d" %}
 
 package:
   name: {{ name|lower }}
@@ -25,14 +25,14 @@ requirements:
     - pip
   run:
     - python
-    - django >=1.11,<2.1
+    - django >=1.11,<2.2
     - django-modelcluster >=4.0,<5.0
-    - django-taggit >=0.22.2,<1.0
+    - django-taggit >=0.23,<0.24
     - django-treebeard >=4.2.0,<5.0
     - djangorestframework >=3.7.4,<4.0
     - draftjs_exporter >=2.0,<3.0
     - pillow >=4.0.0,<6.0
-    - beautifulsoup4 >=4.5.1,<5.0,!=4.6.1
+    - beautifulsoup4 >=4.5.1,<5.0,<4.6.1
     - html5lib >=0.999,<2
     - unidecode >=0.04.14,<2.0
     - willow >=1.1,<1.2
@@ -43,7 +43,7 @@ requirements:
 test:
   commands:
     - wagtail help
-  
+
 about:
   home: https://github.com/wagtail/wagtail
   license: BSD-3-Clause
