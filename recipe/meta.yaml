@@ -1,6 +1,6 @@
 {% set name = "wagtail" %}
-{% set version = "2.2.1" %}
-{% set sha256 = "67b0fce3487e9dc2378e8ecdbc6ee8469d1baddcdf1061b35f41ad54ca98268d" %}
+{% set version = "2.2.2" %}
+{% set sha256 = "ea3913bcab30ea22ab6914210f9612083c8702255a408059ae246eddd229cd49" %}
 
 package:
   name: {{ name|lower }}
