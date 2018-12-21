@@ -1,6 +1,6 @@
 {% set name = "wagtail" %}
-{% set version = "2.3" %}
-{% set sha256 = "6aec70968f4792bf5200e1ac667e9dfd00ddc39367a072bf83752dfcaf13dd51" %}
+{% set version = "2.4" %}
+{% set sha256 = "1dd069ef8b3a08728fa5304e45ee2a92ed49b8e235e9c8b677adfd2039cff1fd" %}
 
 package:
   name: {{ name|lower }}
@@ -30,7 +30,7 @@ requirements:
     - django-taggit >=0.23,<0.24
     - django-treebeard >=4.2.0,<5.0
     - djangorestframework >=3.7.4,<4.0
-    - draftjs_exporter >=2.0,<3.0
+    - draftjs_exporter >=2.1.5,<3.0
     - pillow >=4.0.0,<6.0
     - beautifulsoup4 >=4.5.1,<4.6.1
     - html5lib >=0.999,<2
