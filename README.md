@@ -11,10 +11,10 @@ Summary: A Django content management system focused on flexibility and user expe
 
 Development: https://github.com/wagtail/wagtail
 
-Documentation: http://docs.wagtail.io/en/v2.0/
+Documentation: https://docs.wagtail.org/en/stable/
 
-Wagtail is a content management system built on Django. It's focused on user experience,
-and offers precise control for designers and developers.
+Wagtail is an open source content management system built on Django, with a strong community and commercial support.
+It's focused on user experience, and offers precise control for designers and developers.
 
 
 Current build status
