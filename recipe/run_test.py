@@ -1,20 +1,20 @@
 import django
 from django.conf import settings
-settings.configure(INSTALLED_APPS=['wagtail', 'django.contrib.contenttypes', 'django.contrib.auth']) 
-django.setup() 
+
+settings.configure(
+    INSTALLED_APPS=["wagtail", "django.contrib.contenttypes", "django.contrib.auth"]
+)
+django.setup()
 
 import wagtail
 import wagtail.snippets
 import wagtail.snippets.views
 import wagtail.core
 import wagtail.core.blocks
-import wagtail.core.templatetags
-import wagtail.core.migrations
+import wagtail.core.models
 import wagtail.core.permission_policies
-import wagtail.core.tests
-import wagtail.core.management
-import wagtail.core.management.commands
 import wagtail.core.rich_text
+import wagtail.core.templatetags
 import wagtail.bin
 import wagtail.images
 import wagtail.images.templatetags
@@ -24,22 +24,22 @@ import wagtail.images.api
 import wagtail.images.api.admin
 import wagtail.images.api.v2
 import wagtail.images.views
-import wagtail.tests
-import wagtail.tests.snippets
-import wagtail.tests.snippets.migrations
-import wagtail.tests.customuser
-import wagtail.tests.customuser.migrations
-import wagtail.tests.testapp
-import wagtail.tests.testapp.migrations
-import wagtail.tests.modeladmintest
-import wagtail.tests.modeladmintest.migrations
-import wagtail.tests.routablepage
-import wagtail.tests.routablepage.migrations
-import wagtail.tests.utils
-import wagtail.tests.demosite
-import wagtail.tests.demosite.migrations
-import wagtail.tests.search
-import wagtail.tests.search.migrations
+import wagtail.test
+import wagtail.test.snippets
+import wagtail.test.snippets.migrations
+import wagtail.test.customuser
+import wagtail.test.customuser.migrations
+import wagtail.test.testapp
+import wagtail.test.testapp.migrations
+import wagtail.test.modeladmintest
+import wagtail.test.modeladmintest.migrations
+import wagtail.test.routablepage
+import wagtail.test.routablepage.migrations
+import wagtail.test.utils
+import wagtail.test.demosite
+import wagtail.test.demosite.migrations
+import wagtail.test.search
+import wagtail.test.search.migrations
 import wagtail.admin
 import wagtail.admin.templatetags
 import wagtail.admin.migrations
@@ -76,9 +76,6 @@ import wagtail.contrib.modeladmin.templatetags
 import wagtail.contrib.modeladmin.tests
 import wagtail.contrib.modeladmin.helpers
 import wagtail.contrib.sitemaps
-import wagtail.contrib.postgres_search
-import wagtail.contrib.postgres_search.migrations
-import wagtail.contrib.postgres_search.tests
 import wagtail.search
 import wagtail.search.migrations
 import wagtail.search.backends
