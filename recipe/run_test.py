@@ -1,10 +1,10 @@
-import django
-from django.conf import settings
+# import django
+# from django.conf import settings
 
-settings.configure(
-    INSTALLED_APPS=["wagtail", "django.contrib.contenttypes", "django.contrib.auth"]
-)
-django.setup()
+# settings.configure(
+#     INSTALLED_APPS=["wagtail", "django.contrib.contenttypes", "django.contrib.auth"]
+# )
+# django.setup()
 
 import wagtail
 import wagtail.snippets
