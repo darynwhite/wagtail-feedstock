@@ -14,7 +14,7 @@ build:
     - wagtail = wagtail.bin.wagtail:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.8
     - django >=3.2,<5.1
-    - django-modelcluster >=6.0,<7.0
+    - django-modelcluster >=6.1,<7.0
     - django-permissionedforms >=0.1,<1.0
     - django-taggit >=2.0,<5.0
     - django-treebeard >=4.5.1,<5.0
@@ -38,7 +38,7 @@ requirements:
     - l18n >=2018.5
     - openpyxl >=3.0.10,<4.0
     - anyascii >=0.1.5
-    - telepath >=0.1.1,<1
+    - telepath >=0.3.1,<1
 
 test:
   imports:
