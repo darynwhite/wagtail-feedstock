@@ -152,4 +152,5 @@ Feedstock Maintainers
 =====================
 
 * [@darynwhite](https://github.com/darynwhite/)
+* [@rxm7706](https://github.com/rxm7706/)
 
